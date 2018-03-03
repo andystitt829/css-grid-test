@@ -40,8 +40,8 @@
   background-color: green;
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 h1, h2 {
@@ -59,4 +59,49 @@ h2 {
 
 p {
   font-size: 24px;
+}
+
+.grid-column-gap-demo-container  {
+  display: grid;
+  grid-column-gap: 20px;
+  justify-content: stretch;
+  padding-top: 20px;
+}
+
+.grid-column-gap-demo-header {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.grid-column-gap-demo-header, .grid-column-gap-demo-1, .grid-column-gap-demo-2, .grid-column-gap-demo-3 {
+  padding: 2rem;
+}
+
+.grid-column-gap-demo-1, .grid-column-gap-demo-2, .grid-column-gap-demo-3 {
+  background-color: aqua;
+}
+
+.grid-column-gap-demo-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-column-gap-demo-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-column-gap-demo-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
