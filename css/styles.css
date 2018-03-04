@@ -69,7 +69,7 @@ p {
 }
 
 .grid-column-gap-demo-header {
-  background-color: red;
+  background-color: chartreuse;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -104,4 +104,143 @@ p {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+
+.tetris-header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.tetris-board {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  grid-template-rows: repeat(8, 40px);
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.tetris-piece-1-1 {
+  background-color: blue;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+}
+
+.tetris-piece-1-2 {
+  background-color: blue;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+}
+
+.tetris-piece-2-1 {
+  background-color: red;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+}
+
+.tetris-piece-2-2 {
+  background-color: red;
+  grid-column-start: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.tetris-piece-3-1 {
+  background-color: orange;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.tetris-piece-3-2 {
+  background-color: orange;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+}
+
+.tetris-piece-4-1 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.tetris-piece-5-1 {
+  background-color: yellow;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+}
+
+.tetris-piece-5-2 {
+  background-color: yellow;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+}
+
+.tetris-piece-6-1 {
+  background-color: chartreuse;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+}
+
+.tetris-piece-6-2 {
+  background-color: chartreuse;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+}
+
+.tetris-piece-7-1 {
+  background-color: aqua;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+}
+
+.tetris-piece-7-2 {
+  background-color: aqua;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 5;
+}
+
+.tetris-piece-8-1 {
+  background-color: crimson;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 4;
+}
+
+.tetris-piece-8-2 {
+  background-color: crimson;
+  grid-column-start: 8;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.tetris-piece-9-1 {
+  background-color: darkgoldenrod;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.tetris-piece-10-1 {
+  background-color: gray;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+}
+
+.tetris-piece-10-2 {
+  background-color: gray;
+  grid-column-start: 8;
+  grid-row-start: 2;
 }
